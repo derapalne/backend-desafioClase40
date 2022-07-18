@@ -1,0 +1,30 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derapalne/backend-desafioClase40.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derapalne/backend-desafioClase40/issues"
+  },
+  "homepage": "https://github.com/derapalne/backend-desafioClase40#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.4.5",
+    "sqlite3": "^5.0.9"
+  }
+}
