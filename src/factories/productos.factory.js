@@ -3,16 +3,16 @@ import { ProductosDao } from "../daos/index.js";
 import {optionsMariaDB, optionsSQLiteProductos} from "../options/index.js";
 
 class ProductosFactory {
-    createDao(db) {
+    async createDao(db) {
         let respuesta;
         if(db == "sqlite") {
             respuesta = ProductosDao.getInstance(optionsSQLiteProductos);
-            respuesta.chequearTabla();
+            await respuesta.chequearTabla();
             return respuesta;
         }
         if(db == "mariadb") {
             respuesta = ProductosDao.getInstance(optionsMariaDB);
-            respuesta.chequearTabla();
+            await respuesta.chequearTabla();
             return respuesta;
         }
         console.log("ingrese una base de datos válida");
