@@ -1,3 +1,3 @@
 import ProductosFactory from "./productos.factory.js";
 
-export {ProductosFactory};
+export default {ProductosFactory};

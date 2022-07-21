@@ -1,6 +1,6 @@
-import { ProductoDto } from "../dtos/index.js";
+import ProductoDto  from "../dtos/index.js";
 import { config } from "../utils/index.js";
-import { ProductosFactory } from "../factories/index.js";
+import ProductosFactory  from "../factories/index.js";
 
 export default class ProductosRepo {
     constructor() {

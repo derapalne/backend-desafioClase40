@@ -1,5 +1,4 @@
-import { ProductosDao } from "../daos/index.js";
-// import { config } from "../utils";
+import  ProductosDao  from "../daos/index.js";
 import {optionsMariaDB, optionsSQLiteProductos} from "../options/index.js";
 
 class ProductosFactory {
